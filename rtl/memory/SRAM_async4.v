@@ -1,6 +1,6 @@
 //SRAM_async3.v
 //Asynchronous static RAM of variable size with initial memory contents
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 //default 8x1K ram size

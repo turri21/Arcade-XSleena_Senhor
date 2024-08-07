@@ -1,6 +1,6 @@
 //ROM_async.v
 //27256D EPROM typical delay 150ns
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module ROM_async #(parameter DATA_WIDTH = 8, ADDR_WIDTH = 15, DELAY = 150, DATA_HEX_FILE="dump.hex")(
