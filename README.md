@@ -13,7 +13,7 @@ For consistency purposes with the MiSTer framework, we did not change the declar
 
 
 sys/sys_top.sv
-reg        lowlat = 1;  //Senhor: Set to 1 to fix the pixel color edge artifacts when MISTER_FB=1 is enabled in the .qsf 
+reg        lowlat = 1;  //Senhor: Set to 1 (previous value 0) to fix the pixel color edge artifacts when MISTER_FB=1 is enabled in the .qsf 
 
 # Xain'd Sleena (Bootleg) (beta):
 ![Xaind Sleena](/doc/Xaind-sleena-Flyer.jpg)
