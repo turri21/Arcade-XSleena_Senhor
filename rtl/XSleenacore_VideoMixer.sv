@@ -2,7 +2,7 @@
 //Author: @RndMnkIII
 //Date: 11/10/2022
 //Schematics: pages 5-6B
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/100ps
 
 module XSleenacore_VideoMixer (

@@ -2,7 +2,7 @@
 //Author: @RndMnkIII
 //Date: 07/10/2022
 //clk_i   48MHz
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ps
 
 module XSleenaCore_CLK_CEN_Cen (

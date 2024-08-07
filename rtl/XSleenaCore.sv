@@ -16,7 +16,7 @@
 //  with this program; if not, write to the Free Software Foundation, Inc.,
 //  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/100ps
 `define RENDER_OBJ_LAYER
 `define RENDER_MAP_LAYER

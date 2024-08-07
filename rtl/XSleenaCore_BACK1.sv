@@ -2,7 +2,7 @@
 //Author: @RndMnkIII
 //Date: 21/11/2022
 //Schematics: pages 7-8A
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/100ps
 //`define DEFAULT_REG_VALS
 `define CPU_OVERCLOCK_HACK

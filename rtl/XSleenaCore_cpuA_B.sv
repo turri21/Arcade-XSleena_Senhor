@@ -16,7 +16,7 @@
 //  with this program; if not, write to the Free Software Foundation, Inc.,
 //  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/10ps
 `define CPU_OVERCLOCK_HACK
 import xain_pkg::*;

@@ -2,7 +2,7 @@
 //Author: @RndMnkIII
 //Date: 20/08/2022
 //Schematics: pages 3-6A
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/100ps
 
 //Object (sprites) RAM tilemap address mapping: 0x3800-39FF

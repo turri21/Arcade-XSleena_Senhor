@@ -17,7 +17,7 @@
 //XSleenaCore_CLK.sv
 //Author: @RndMnkIII
 //Date: 11/10/2022
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/10ps
 //in real PCB the CLK is generated using the following circuit:
 //              +-----------|[]|-----------+

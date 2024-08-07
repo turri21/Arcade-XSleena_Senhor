@@ -10,7 +10,7 @@
 //1850			8A			8816 ->  $000E:8A Stores sound code in RAM $0E, also uses $00, $02
 //1851          09          ...
 
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/10ps
 
 module XSleenaCore_SoundCPU (

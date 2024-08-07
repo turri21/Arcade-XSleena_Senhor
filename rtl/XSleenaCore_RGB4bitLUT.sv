@@ -29,7 +29,7 @@
     
 // plt.plot(norm_values)
 // plt.show()
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module XSleenaCore_RGB4bitLUT( 
