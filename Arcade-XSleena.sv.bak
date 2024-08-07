@@ -78,8 +78,7 @@ module emu
 	input         FB_VBL,
 	input         FB_LL,
 	output        FB_FORCE_BLANK,
-   //output        FB_PAL_CLK,
-	
+
 `ifdef MISTER_FB_PALETTE
 	// Palette control for 8bit modes.
 	// Ignored for other video modes.
@@ -180,10 +179,10 @@ module emu
 
 ///////// Default values for ports not used in this core /////////
 
-////assign ADC_BUS  = 'Z;
+assign ADC_BUS  = 'Z;
 //assign USER_OUT = '1;
-////assign {UART_RTS, UART_TXD, UART_DTR} = 0;
-////assign {SD_SCK, SD_MOSI, SD_CS} = 'Z;
+assign {UART_RTS, UART_TXD, UART_DTR} = 0;
+assign {SD_SCK, SD_MOSI, SD_CS} = 'Z;
 //assign {SDRAM_DQ, SDRAM_A, SDRAM_BA, SDRAM_CLK, SDRAM_CKE, SDRAM_DQML, SDRAM_DQMH, SDRAM_nWE, SDRAM_nCAS, SDRAM_nRAS, SDRAM_nCS} = 'Z;
 //assign {DDRAM_CLK, DDRAM_BURSTCNT, DDRAM_ADDR, DDRAM_DIN, DDRAM_BE, DDRAM_RD, DDRAM_WE} = '0;  
 
@@ -671,7 +670,7 @@ assign VBlank=  ~VBLANK_CORE;
 assign HSync =   HSYNC_CORE;
 assign VSync =  ~VSYNC_CORE;
 
-// Senhor:
+
 assign CLK_VIDEO = MS_CLK;
 
 logic [7:0] R, G, B;
@@ -711,7 +710,7 @@ arcade_video #(256,24) arcade_video
         .VSync(VSync)
 );
 
-screen_rotate screen_rotate(.*); // Senhor:
+screen_rotate screen_rotate(.*);
 //////////////////////////////////////////////////////////////////
 
 ///////////////////         Keyboard           //////////////////
