@@ -1,3 +1,14 @@
+-=(XSleena_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound
+
+Using Arcade-XSleenaCore_120SDR_ONLY_TILES.qsf renamed to Arcade-XSleena.qsf
+
+The original Arcade-XSleena.qsf is renamed to Arcade-XSleena.qsfold
+
+sys/sys_top.sv
+reg        lowlat = 1;  //Senhor: Set to 1 to fix the pixel color edge artifacts when MISTER_FB=1 is enabled in the .qsf 
+
 # Xain'd Sleena (Bootleg) (beta):
 ![Xaind Sleena](/doc/Xaind-sleena-Flyer.jpg)
 
