@@ -1,7 +1,7 @@
 //n8bit_counter.sv
 //Author: @RndMnkIII
 //Date: 17/10/2022
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ps
 
 module n8bit_counter

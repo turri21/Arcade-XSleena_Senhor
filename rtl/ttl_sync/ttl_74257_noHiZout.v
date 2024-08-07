@@ -3,7 +3,7 @@
 //Author: @RndMnkIII
 //Date: 31/08/2022
 `include "helper.v"
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module ttl_74257_noHiZout #(parameter BLOCKS = 4, WIDTH_IN = 2, WIDTH_SELECT = $clog2(WIDTH_IN))               

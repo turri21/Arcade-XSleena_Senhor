@@ -1,7 +1,7 @@
 //ttl_74194.v
 //4-Bit Bidirectional Universal Shift Register
 //@RndMnkIII. 20/10/2022
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/100ps
 
 module ttl_74194_sync

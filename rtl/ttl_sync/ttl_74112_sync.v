@@ -1,7 +1,7 @@
 //ttl_74112_sync.v
 //Dual J-K Negative-Edge-Triggered FF with Preset and Clear
 //Author: @RndMnkIII. 08/10/2022.
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ps
 
 module ttl_74112_sync #(parameter BLOCKS = 2)
