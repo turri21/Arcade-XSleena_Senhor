@@ -9,7 +9,7 @@ The original Arcade-XSleena.qsf is renamed to Arcade-XSleena.qsfold
 
 For consistency purposes with the MiSTer framework, we did not change the declarations from implicit to explicit.
 
-//`default_nettype none  <--- Therefore, it is disabled on every file it was present otherwise synthesizing in Quartus will stop due to several errors.
+//`default_nettype none  <--- Therefore, it is disabled on every file it was present, otherwise synthesizing in Quartus will stop due to several errors.
 
 
 sys/sys_top.sv
