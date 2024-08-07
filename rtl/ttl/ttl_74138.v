@@ -1,6 +1,6 @@
 // ttl_74138.v
 // 3-line
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 //TPLH 18
 //TPHL 27

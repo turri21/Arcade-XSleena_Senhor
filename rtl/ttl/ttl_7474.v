@@ -2,7 +2,7 @@
 
 // Note: Preset_bar is asynchronous as specified in datasheet for this device,
 //ignored Clear_bar, for implementations that don't use the Clear input
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 

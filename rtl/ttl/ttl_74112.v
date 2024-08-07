@@ -2,7 +2,7 @@
 
 // Note: Preset_bar is synchronous, not asynchronous as specified in datasheet for this device,
 //       in order to meet requirements for FPGA circuit design (see IceChips Technical Notes)
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module ttl_74112 #(parameter BLOCKS = 2, DELAY_RISE = 0, DELAY_FALL = 0)

@@ -1,5 +1,5 @@
 // Dual 2-line to 4-line decoder/demultiplexer (inverted outputs)
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module ttl_74139  #(parameter DELAY = 15)

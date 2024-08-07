@@ -1,6 +1,6 @@
 //ttl_74194.v
 //4-Bit Bidirectional Universal Shift Register
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 
 module ttl_74194 #(parameter DELAY_RISE = 12, DELAY_FALL = 15)

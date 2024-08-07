@@ -3,7 +3,7 @@
 // function table, logic diagrams and switching characteristics
 // extracted from TI 74LS374 Datasheet.
 //iverilog ttl_74374.v
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 module ttl_74374 #(parameter DLY=10)
 (

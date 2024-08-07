@@ -1,7 +1,7 @@
 //ttl_74273.v
 // Octal D flip-flop with reset; positive-edge-triggered
 //iverilog ttl_74273.v
-`default_nettype none
+//`default_nettype none
 `timescale 1ns/1ns
 module ttl_74273 #(parameter DELAY_RISE = 12, DELAY_FALL = 13) 
 (
