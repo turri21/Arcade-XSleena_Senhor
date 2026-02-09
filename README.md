@@ -1,3 +1,8 @@
+-=(XSleena_Senhor notes)=-
+
+Tested: Working Video 720p, 1080p & Sound.
+
+___
 # Xain'd Sleena (Bootleg) (beta):
 ![Xaind Sleena](/doc/Xaind-sleena-Flyer.jpg)
 
